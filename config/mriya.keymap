@@ -30,6 +30,11 @@
             bindings = <&kp LC(BACKSPACE)>;
             key-positions = <53 33>;
         };
+
+        layer3 {
+            bindings = <&mo 3>;
+            key-positions = <50 53>;
+        };
     };
 
     keymap {
