@@ -21,9 +21,14 @@
     combos {
         compatible = "zmk,combos";
 
-        ctrl-backspace {
-            bindings = <&none>;
+        enter {
+            bindings = <&kp ENTER>;
             key-positions = <53 32>;
+        };
+
+        dw {
+            bindings = <&kp LC(BACKSPACE)>;
+            key-positions = <53 33>;
         };
     };
 
