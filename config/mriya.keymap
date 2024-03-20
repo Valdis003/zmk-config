@@ -18,6 +18,15 @@
 &mt { quick_tap_ms = <200>; };
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        ctrl-backspace {
+            bindings = <&none>;
+            key-positions = <53 32>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
